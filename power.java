@@ -11,7 +11,7 @@ class Ideone
 		long result = 1;
 		for (;ex!= 0; --ex)
         {
-            result *= bs;
+            result *= base;
         }
 		System.out.println( result);	
    }
