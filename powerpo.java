@@ -9,7 +9,7 @@ class Ideone
 	    int base=sc.nextInt();
 		int exponent=sc.nextInt();
 		long result = 1;
-		for (;ex!= 0; --ex)
+		for (;exponent!= 0; --exponent)
         {
             result *= base;
         }
