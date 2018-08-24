@@ -11,6 +11,7 @@ class Ideone
         	n=sc.nextInt();
         for (i = 0; i < n; ++i)
             arr[i]=sc.nextInt();
+		
         for (i = 0; i < n; ++i) 
         {
             for (j = i + 1; j < n; ++j)
@@ -18,12 +19,10 @@ class Ideone
  
                 if (arr[i] > arr[j]) 
                 {
- 
-                    a =  arr[i];
+			a =  arr[i];
                     arr[i] =arr[j];
                     arr[j] = a;
- 
-                }
+		}
  
             }
  
