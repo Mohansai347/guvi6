@@ -3,7 +3,7 @@ import java.lang.*;
 import java.io.*;
 class Ideone
 {
-	public static void main (String[] args) throws java.lang.Exception
+     public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
@@ -12,7 +12,7 @@ class Ideone
 		{
 			if(c==' ')
 			count++;
-		}
+		}  
 		System.out.println(count);
 	}
 }
